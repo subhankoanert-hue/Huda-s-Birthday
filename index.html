@@ -40,7 +40,7 @@
 
     h1{
       color:white;
-      font-size:5rem;
+      font-size:4rem;
       text-shadow:0 0 25px #ff4da6;
       animation:glow 2s infinite alternate;
     }
@@ -105,7 +105,6 @@
       justify-content:center;
       align-items:center;
       gap:18px;
-      flex-wrap:wrap;
       margin-top:20px;
     }
 
@@ -139,7 +138,7 @@
     }
 
     #surpriseGif{
-      width:430px;
+      width:420px;
       max-width:90%;
       display:none;
       border-radius:25px;
@@ -148,23 +147,50 @@
       margin-top:25px;
     }
 
+    /* MOBILE FRIENDLY */
+
     @media(max-width:900px){
 
       h1{
-        font-size:2.7rem;
+        font-size:2.3rem;
+      }
+
+      h2{
+        font-size:1.5rem;
       }
 
       .memory-container{
         flex-direction:column;
       }
 
-      .text-side{
-        text-align:center;
+      .image-column{
+        flex-direction:row;
+        justify-content:center;
+        flex-wrap:wrap;
       }
 
       .memory-img{
-        width:180px;
-        height:220px;
+        width:130px;
+        height:170px;
+      }
+
+      .text-side{
+        text-align:center;
+        padding:20px;
+      }
+
+      .text-side p{
+        font-size:0.95rem;
+        line-height:1.8;
+      }
+
+      .btn{
+        padding:12px 24px;
+        font-size:0.9rem;
+      }
+
+      #surpriseGif{
+        width:280px;
       }
 
     }
@@ -204,12 +230,12 @@
       <div class="image-column">
 
         <img
-          src="C:/Users/subha/Downloads/IMG_6026.png"
+          src="D:/New folder (3)/IMG_6026.png"
           class="memory-img"
         >
 
         <img
-          src="C:/Users/subha/Downloads/IMG_6023.png"
+          src="D:/New folder (3)/IMG_6023.png"
           class="memory-img"
         >
 
@@ -300,12 +326,12 @@
       <div class="image-column">
 
         <img
-          src="C:/Users/subha/Downloads/IMG_4580.png"
+          src="D:/New folder (3)/IMG_4580.png"
           class="memory-img"
         >
 
         <img
-          src="C:/Users/subha/Downloads/IMG_6024.png"
+          src="D:/New folder (3)/IMG_6024.png"
           class="memory-img"
         >
 
@@ -319,13 +345,13 @@
 
   <section class="page" id="page3">
 
-    <h1 style="font-size:4rem;">
+    <h1>
       HAPPY BIRTHDAY HIPPO 🎂
     </h1>
 
     <br>
 
-    <p style="color:white; max-width:700px; line-height:2; font-size:1.5rem;">
+    <p style="color:white; font-size:1.4rem;">
 
       IDHAR CLICK KAR
 
@@ -337,7 +363,7 @@
 
     <img
       id="surpriseGif"
-      src="C:/Users/subha/Downloads/IMG_6028.gif"
+      src="D:/New folder (3)/IMG_6028.gif"
     >
 
   </section>
